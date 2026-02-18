@@ -1,0 +1,57 @@
+export const getMockCourses = () => [
+  {
+    id: 1,
+    code: 'CSIS311',
+    name: 'Database Systems',
+    date: 'Mon, 24-01-2025',
+    time: '09:00 AM-12:00 PM',
+    venue: 'Main Hall',
+    instructor: 'Dr. Smith',
+    option: 'Main',
+    numStudents: '50',
+    rows: '1, 3, 5, 7, 9',
+  },
+  {
+    id: 2,
+    code: 'MATH201',
+    name: 'Calculus II',
+    date: 'Tue, 25-01-2025',
+    time: '01:00 PM-03:00 PM',
+    venue: 'Room 101',
+    instructor: 'Prof. Johnson',
+    option: 'Group A',
+    numStudents: '40',
+    rows: '2, 4, 6, 8',
+  },
+  {
+    id: 3,
+    code: 'PHY301',
+    name: 'Physics Lab',
+    date: 'Wed, 26-01-2025',
+    time: '10:00 AM-12:00 PM',
+    venue: 'Lab Building',
+    instructor: 'Dr. Williams',
+    option: 'Group B',
+    numStudents: '30',
+    rows: '1, 3, 5, 7',
+  },
+  {
+    id: 4,
+    code: 'ENG101',
+    name: 'English Composition',
+    date: 'Thu, 27-01-2025',
+    time: '02:00 PM-04:00 PM',
+    venue: 'Room 202',
+    instructor: 'Ms. Davis',
+    option: 'Group C',
+    numStudents: '45',
+    rows: '2, 4, 6, 8, 10',
+  },
+];
+
+export const getMockUsers = () => [
+  { id: 1, full_name: 'John Doe', email: 'john@example.com', student_id: 'S12345', created_at: '2024-01-15' },
+  { id: 2, full_name: 'Jane Smith', email: 'jane@example.com', student_id: 'S12346', created_at: '2024-01-16' },
+  { id: 3, full_name: 'Bob Johnson', email: 'bob@example.com', student_id: 'S12347', created_at: '2024-01-17' },
+];
+
