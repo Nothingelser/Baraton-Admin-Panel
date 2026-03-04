@@ -206,7 +206,7 @@ function LoginModal({ showLogin, setShowLogin, setCurrentUser, setShowSignup }) 
           <p className="text-center text-sm text-gray-600 dark:text-gray-400 mt-4">
             Student login?{' '}
             <a
-              href="/"
+              href="https://baraton-exam-timetable-web-app.vercel.app/"
               className="text-blue-600 hover:text-blue-800 dark:text-blue-500 dark:hover:text-blue-400 font-medium transition-colors"
             >
               Go to student portal
